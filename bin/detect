@@ -1,0 +1,3 @@
+   #!/bin/bash
+   echo "Custom Buildpack for C Extensions"
+   exit 0
