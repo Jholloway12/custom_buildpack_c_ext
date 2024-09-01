@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Exit on any error
+set -e
+
+# Change to the directory containing the extconf.rb file
+cd lib/ballistics_calculator/ext/ballistics_calculator
+
+# Run extconf.rb and make
+ruby extconf.rb
+make
